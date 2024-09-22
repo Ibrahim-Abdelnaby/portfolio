@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #550df4;
+  --secondary-color: #f0fa71;
+  --background-color: #000;
+  --text-color: #fff;
+}
+
+body {
+  @apply bg-[var(--background-color)] text-[var(--text-color)];
+}
+
+/* Container */
+.box {
+  @apply container mx-auto px-4;
+}

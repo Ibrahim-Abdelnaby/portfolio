@@ -1,0 +1,4 @@
+#hero {
+  @apply min-h-screen bg-no-repeat bg-cover bg-center;
+  background-image: url("../../../public/images/hero-bg.png");
+}

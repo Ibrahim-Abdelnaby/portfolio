@@ -1,0 +1,15 @@
+#navbar {
+  @apply bg-black py-4 px-6 rounded-full bg-opacity-15;
+}
+
+.nav-list {
+  @apply flex justify-center gap-8;
+}
+
+.nav-list > * {
+  @apply text-sm text-gray-300 transition-colors ease-in duration-200;
+}
+
+.nav-list > *:hover {
+  @apply text-[var(--secondary-color)];
+}

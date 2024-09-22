@@ -1,0 +1,9 @@
+.social {
+  @apply flex items-center gap-5;
+}
+.social a {
+  @apply text-white transition-colors ease-in duration-200;
+}
+.social > *:hover {
+  @apply text-[var(--secondary-color)];
+}

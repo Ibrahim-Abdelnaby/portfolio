@@ -1,0 +1,3 @@
+.wrapper {
+  @apply pt-8 flex justify-between items-center;
+}
