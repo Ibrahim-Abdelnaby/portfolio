@@ -5,15 +5,74 @@
 :root {
   --primary-color: #550df4;
   --secondary-color: #f0fa71;
-  --background-color: #000;
-  --text-color: #fff;
+  --dark-color: #000;
+  --light-color: #fff;
+}
+
+/* Popines font */
+@font-face {
+  font-family: "Poppins-reg";
+  src: url(../public/fonts/Poppins-Regular.woff2) format("woff2"),
+    url(../public/fonts/Poppins-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Poppins-md";
+  src: url(../public/fonts/Poppins-Medium.woff2) format("woff2"),
+    url(../public/fonts/Poppins-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Poppins-sbold";
+  src: url(../public/fonts/Poppins-SemiBold.woff2) format("woff2"),
+    url(../public/fonts/Poppins-SemiBold.woff) format("woff");
+}
+
+/* Neu Font */
+@font-face {
+  font-family: "Neue";
+  src: url(../public/fonts/NeueHaasDisplay-Bold.woff2) format("woff2"),
+    url(../public/fonts/NeueHaasDisplay-Bold.woff) format("woff");
+}
+
+/* fonts classes */
+.neue {
+  font-family: "Neue";
+}
+.poppins-reg {
+  font-family: "Poppins-reg";
+}
+.Poppins-md {
+  font-family: "Poppins-md";
+}
+.poppins-sbold {
+  font-family: "Poppins-sbold";
 }
 
 body {
-  @apply bg-[var(--background-color)] text-[var(--text-color)];
+  @apply bg-[var(--dark-color)] text-[var(--light-color)];
+  height: 1000vh;
 }
 
 /* Container */
 .box {
   @apply container mx-auto px-4;
+}
+
+/* Buttons */
+
+button {
+  @apply font-semibold px-7 py-3 transition-colors ease-in duration-200;
+}
+
+.primary-btn {
+  @apply bg-[var(--secondary-color)] text-[var(--dark-color)];
+}
+
+.primary-btn:hover {
+  @apply bg-[var(--primary-color)] text-white;
+}
+
+.secondary-btn:hover {
+  @apply text-[var(--secondary-color)];
 }

@@ -2,3 +2,31 @@
   @apply min-h-screen bg-no-repeat bg-cover bg-center;
   background-image: url("../../../public/images/hero-bg.png");
 }
+#hero .hero-text {
+  @apply text-center pt-40 flex flex-col justify-center mb-20;
+}
+
+#hero .hero-text h5 {
+  @apply text-[#AAAAAA] text-lg mb-3;
+}
+
+#hero .hero-text h1 {
+  @apply uppercase font-black text-6xl w-4/6 self-center leading-normal mb-5;
+}
+
+#hero .hero-text .hero-btns {
+  @apply self-center flex items-center gap-5;
+}
+
+#hero .hero-video {
+  @apply w-full flex justify-center;
+}
+
+#hero .hero-video .wrapper {
+  @apply w-[1066px] h-[600px]  p-3 bg-[#111111] rounded-xl shadow-2xl;
+  box-shadow: 0 25px 100px rgba(86, 13, 244, 0.1);
+}
+
+#hero .hero-video .wrapper iframe {
+  @apply w-full h-full rounded-md;
+}
