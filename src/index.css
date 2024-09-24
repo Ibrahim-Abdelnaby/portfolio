@@ -7,6 +7,10 @@
   --secondary-color: #f0fa71;
   --dark-color: #000;
   --light-color: #fff;
+
+  /* shadow */
+  --shadow-secondary: rgba(241, 250, 113, 0.125);
+  --shadow-secondary: rgba(86, 13, 244, 0.13);
 }
 
 /* Popines font */
@@ -66,7 +70,7 @@ button {
 }
 
 .primary-btn {
-  @apply bg-[var(--secondary-color)] text-[var(--dark-color)];
+  @apply bg-[var(--secondary-color)] text-[var(--dark-color)] font-bold;
 }
 
 .primary-btn:hover {
@@ -75,4 +79,8 @@ button {
 
 .secondary-btn:hover {
   @apply text-[var(--secondary-color)];
+}
+
+section {
+  @apply mb-32;
 }

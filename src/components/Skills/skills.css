@@ -1,0 +1,38 @@
+#skills {
+  @apply pt-5;
+}
+#skills .skills-box {
+  @apply text-center;
+}
+
+#skills .skills-box h2 {
+  @apply uppercase font-black text-3xl mb-20;
+}
+
+#skills .cards {
+  @apply flex justify-between gap-8;
+}
+
+#skills .cards .card {
+  @apply relative w-1/2 p-8 bg-white bg-opacity-5 rounded-lg shadow-2xl flex justify-center items-center transition-all ease-in duration-200 cursor-pointer;
+}
+
+#skills .cards .card .logo {
+  filter: grayscale(1);
+}
+
+#skills .cards .card h6 {
+  @apply absolute top-full pt-3 opacity-50 transition-opacity ease-in duration-200;
+}
+
+#skills .cards .card:hover {
+  @apply scale-110 shadow-[var(--shadow-secondary)];
+}
+
+#skills .cards .card:hover .logo {
+  filter: grayscale(0);
+}
+
+#skills .cards .card:hover h6 {
+  @apply text-[var(--secondary-color)] opacity-100;
+}

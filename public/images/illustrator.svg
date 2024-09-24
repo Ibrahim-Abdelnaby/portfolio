@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49.897" height="49.897" viewBox="0 0 49.897 49.897">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.349" cy="0.222" r="0.838" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3c1605" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#1a1107"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="-0.102" y1="0.219" x2="1.102" y2="0.781" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="illustrator" transform="translate(-1 -1)">
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="47.629" height="47.629" transform="translate(2.134 2.134)" fill="url(#radial-gradient)"/>
+    <path id="Path_18" data-name="Path 18" d="M50.9,50.9H1V1H50.9ZM3.268,48.629H48.629V3.268H3.268Z" fill="#f47521"/>
+    <rect id="Rectangle_30" data-name="Rectangle 30" width="9.072" height="4.536" transform="translate(18.01 28.216)" fill="#f47521"/>
+    <rect id="Rectangle_31" data-name="Rectangle 31" width="4.536" height="17.01" transform="translate(36.155 22.546)" fill="#f47521"/>
+    <circle id="XMLID_1414_" cx="2.268" cy="2.268" r="2.268" transform="translate(36.155 16.876)" fill="#f47521"/>
+    <path id="Path_19" data-name="Path 19" d="M14.319,6,5.61,33.216h4.764L16.7,13.442l6.328,19.774h4.763L19.082,6Z" transform="translate(5.845 6.34)" fill="#f47521"/>
+    <path id="Path_20" data-name="Path 20" d="M50.9,50.9H1V1H50.9Z" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49.897" height="49.897" viewBox="0 0 49.897 49.897">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.349" cy="0.222" r="0.838" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#193458" stop-opacity="0.98"/>
+      <stop offset="0.933" stop-color="#210021"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="-0.102" y1="0.219" x2="1.102" y2="0.781" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="photoshop" transform="translate(-1 -1)">
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="47.629" height="47.629" transform="translate(2.134 2.134)" fill="url(#radial-gradient)"/>
+    <path id="Path_14" data-name="Path 14" d="M50.9,50.9H1V1H50.9ZM3.268,48.629H48.629V3.268H3.268Z" fill="#00b5ef"/>
+    <path id="Path_15" data-name="Path 15" d="M10.536,33.216H6V6h6.4a9.348,9.348,0,0,1,9.432,8.166A9.082,9.082,0,0,1,12.8,24.144H10.536Zm0-13.608H12.8a4.536,4.536,0,1,0,0-9.072H10.536Z" transform="translate(6.34 6.34)" fill="#00b5ef"/>
+    <path id="Path_16" data-name="Path 16" d="M18.007,29.361a14.71,14.71,0,0,1-4.954-1.322l2.029-4.058a10.5,10.5,0,0,0,4.1.895,1.686,1.686,0,0,0,.534-3.286l-1.094-.364a6.5,6.5,0,0,1-4.5-5.128A6.231,6.231,0,0,1,20.29,9a14.758,14.758,0,0,1,6.132,1.373L24.4,14.435a10.514,10.514,0,0,0-4.113-.9,1.686,1.686,0,0,0-.534,3.286l1.4.465a6.217,6.217,0,0,1,4.223,6.534C25.022,27.374,21.564,29.669,18.007,29.361Z" transform="translate(15.283 10.144)" fill="#00b5ef"/>
+    <path id="Path_17" data-name="Path 17" d="M50.9,50.9H1V1H50.9Z" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

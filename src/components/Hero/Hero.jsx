@@ -2,8 +2,11 @@
 import "./hero.css";
 // import header component
 import Header from "../header/Header";
+// import font awesome icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight, faDownload } from "@fortawesome/free-solid-svg-icons";
+// import floating text
+import floatImg from "../../../public/images/floating-text.png";
 
 function Hero() {
   return (
@@ -32,10 +35,13 @@ function Hero() {
           {/* video */}
           <div className="hero-video">
             <div className="wrapper">
+              <div className="float-text">
+                <img src={floatImg} alt="See what's inside" />
+              </div>
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/VIjFxZgi6AM?si=geKeNlHLSB3orlC-&amp;controls=0"
+                src="https://www.youtube.com/embed/1a2G-pGByXE?si=a2UcbDJQYX8ChpoS&amp;controls=0"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
