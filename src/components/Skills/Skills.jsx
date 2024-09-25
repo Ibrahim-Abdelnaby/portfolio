@@ -45,7 +45,7 @@ function Skills() {
       <section id="skills">
         <div className="box">
           <div className="skills-box">
-            <h2 className="neue">My Skills</h2>
+            <h2 className="neue title">My Skills</h2>
             {/* Cards Container */}
             <div className="cards">
               {cards.map((card, index) => (

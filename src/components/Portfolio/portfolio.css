@@ -1,0 +1,27 @@
+#portfolio .portfolio-box {
+  @apply text-center;
+}
+
+#portfolio .tablist {
+  @apply bg-white bg-opacity-15 rounded-full;
+}
+
+#portfolio .tablist TabsTrigger {
+  @apply bg-[var(--primary-color)] rounded-full text-white;
+}
+
+#portfolio .tab-trigger[data-state="active"] {
+  @apply bg-[var(--primary-color)] text-white rounded-full;
+}
+
+#portfolio .tab-trigger:focus {
+  background: var(--primary-color);
+}
+
+#portfolio .contnt-box {
+  @apply flex gap-5;
+}
+
+#portfolio .contnt-box .content {
+  @apply bg-[var(--primary-color)] rounded-lg h-20;
+}
