@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="favicon" transform="translate(376 348)">
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="25" cy="25" r="25" transform="translate(-376 -348)"/>
+    <g id="Ibrahim-Abdelnaby-logo" transform="translate(-754 -692)">
+      <path id="Path_1" data-name="Path 1" d="M405.121,422.888h10.543L407.1,410.321c-1.572,2.259-6.893,9.875-7.246,10.218a1.181,1.181,0,0,1-1.509.145,1.1,1.1,0,0,1-.208-1.5c.018-.027,6.3-8.8,7.679-10.733L403.468,405,391,422.888h11.438c2.069-2.954,4.517-6.424,4.752-6.658a1.181,1.181,0,0,1,1.509-.145,1.111,1.111,0,0,1,.208,1.5C408.9,417.6,407.036,420.205,405.121,422.888Z" transform="translate(0 -44.573)" fill="#fff"/>
+      <path id="Path_2" data-name="Path 2" d="M544.7,359.523,542.259,356,540,359.252l2.259,3.343Z" transform="translate(-135.539)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
