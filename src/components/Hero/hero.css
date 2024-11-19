@@ -1,0 +1,13 @@
+#hero {
+  @apply pt-60 bg-cover bg-top bg-[url("../../../public/grid_gradient.png")];
+}
+#hero .subtitle {
+  @apply text-center text-[var(--secondary-color)] mb-5 text-base;
+}
+#hero h1 {
+  @apply text-center text-6xl font-bold uppercase leading-snug w-3/4 mx-auto mb-8;
+}
+
+#hero .ctas {
+  @apply flex justify-center items-center gap-8 mb-36;
+}

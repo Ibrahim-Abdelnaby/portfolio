@@ -1,7 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+:root {
+  --secondary-color: #f0fa71;
+  --syne-font: "Syne", sans-serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
+  font-family: var(--syne-font);
   @apply bg-black text-white;
+}
+
+img {
+  @apply w-full;
+}
+
+.primary-btn {
+  @apply bg-indigo-700 hover:bg-[var(--secondary-color)] text-white hover:text-black py-4 px-8;
+}
+.secondary-btn {
+  @apply hover:text-[var(--secondary-color)];
+}
+.tertiary-btn {
+  @apply opacity-25 transition duration-400 rounded-md text-[var(--secondary-color)];
+}
+
+.container-all {
+  @apply container mx-auto px-4;
+}
+
+button {
+  @apply font-semibold transition duration-400;
+}
+
+.title {
+  @apply mb-24 text-center text-5xl font-bold bg-gradient-to-r to-indigo-700 from-[var(--secondary-color)] bg-clip-text text-transparent;
+}
+
+.paragraph {
+  @apply text-gray-600 text-base leading-relaxed;
 }

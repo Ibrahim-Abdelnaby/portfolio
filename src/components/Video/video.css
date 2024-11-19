@@ -1,0 +1,7 @@
+#video {
+  @apply flex justify-center;
+}
+
+#video .video-container {
+  @apply shadow-[0_-25px_250px_-10px_rgba(67,56,202,0.28)];
+}

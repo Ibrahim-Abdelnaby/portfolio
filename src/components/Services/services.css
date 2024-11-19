@@ -1,0 +1,28 @@
+#services {
+  @apply pt-36 mb-48;
+}
+#services .services {
+  @apply flex items-center gap-5;
+}
+#services .services .service-card {
+  @apply relative  p-6 rounded-lg transition duration-400;
+}
+#services .services .service-card h3 {
+  @apply mb-3 text-xl;
+}
+
+/* Card Hover */
+
+#services .services .service-card:hover h3 {
+  @apply text-[var(--secondary-color)] z-10;
+}
+
+/* Active Card */
+
+#services .services .service-card.active {
+  @apply bg-gray-50/[0.025] shadow-[0_25px_250px_-40px_rgba(67,56,202,0.28)] scale-[1.05];
+}
+
+#services .services .service-card.active h3 {
+  @apply text-[var(--secondary-color)] z-10;
+}

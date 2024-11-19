@@ -1,5 +1,16 @@
-#header {
-  li {
-    @apply text-sm;
-  }
+#header .wrapper {
+  @apply flex justify-between items-center py-8;
+}
+#header .social {
+  @apply flex items-center gap-5;
+}
+#header .social > * {
+  @apply hover:text-[var(--secondary-color)];
+}
+
+#header nav {
+  @apply bg-gray-50/[0.03] py-3 px-8 rounded-full;
+}
+#header nav ul li {
+  @apply hover:text-[var(--secondary-color)] text-base transition duration-400;
 }
